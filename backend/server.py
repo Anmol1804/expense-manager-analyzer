@@ -10,7 +10,7 @@ class Expense(BaseModel):
     notes : str
 
 app = FastAPI()
-# uvicorn server:app --port 5000 --reload
+# uvicorn server:app --port 4000 --reload
 
 
 @app.get("/expenses/{expense_date}", response_model=List[Expense])
