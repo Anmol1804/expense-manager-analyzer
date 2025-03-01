@@ -1,8 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from datetime import date
 
-from fastapi.openapi.utils import status_code_ranges
-
 import db_helper
 from typing import List
 from pydantic import BaseModel
@@ -56,3 +54,24 @@ def get_analytics(date_range : DateRange):
         }
 
     return breakdown
+
+@app.get("/analytics2/")
+def analytics_by_month():
+    expenses = db_helper.fetch_all_records()
+    if expenses is None:
+        raise HTTPException(status_code=500, detail="Failed to retrieve data")
+    return expenses
+
+@app.get("/analytics2/")
+def analytics_by_month():
+    expenses = db_helper.fetch_all_records()
+    if expenses is None:
+        raise HTTPException(status_code=500, detail="Failed to retrieve data")
+    return expenses
+
+@app.get("/analytics3/")
+def analytics_by_month():
+    expenses = db_helper.fetch_total_expense_by_month()
+    if expenses is None:
+        raise HTTPException(status_code=500, detail="Failed to retrieve data")
+    return expenses

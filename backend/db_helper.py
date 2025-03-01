@@ -23,12 +23,12 @@ def get_db_cursor(commit=False):
     cursor.close()
     connection.close()
 
-# def fetch_all_records():
-#     with get_db_cursor() as cursor:
-#         cursor.execute("SELECT * FROM expenses")
-#         expenses = cursor.fetchall()
-#
-#         return expenses
+def fetch_all_records():
+    with get_db_cursor() as cursor:
+        cursor.execute("SELECT * FROM expenses")
+        expenses = cursor.fetchall()
+
+        return expenses
 
 def fetch_expenses_for_date(expense_date):
     logger.info(f"fetch_expenses_for_date called with date : {expense_date}")
@@ -73,11 +73,29 @@ def fetch_expense_summary(start_date, end_date):
 
         return data
 
+def fetch_total_expense_by_month():
+    with get_db_cursor() as cursor:
+        cursor.execute(
+            '''
+            SELECT DATE_FORMAT(expense_date, '%Y-%m') AS month, 
+            SUM(amount) AS total_amount
+            FROM expenses
+            GROUP BY month
+            ORDER BY month;
+            '''
+        )
+
+        data = cursor.fetchall()
+        return data
+
 
 if __name__ == "__main__":
+    expenses = fetch_all_records()
+    print(expenses)
+
     # expenses = fetch_expenses_for_date("2024-08-28")
     # print(expenses)
 
-    expenses = fetch_expense_summary("2024-08-01", "2024-08-10")
-    print(expenses)
+    # expenses = fetch_expense_summary("2024-08-01", "2024-08-10")
+    # print(expenses)
 

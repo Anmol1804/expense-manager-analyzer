@@ -4,7 +4,6 @@ import streamlit as st
 from datetime import datetime
 import requests as req
 import pandas as pd
-from unicodedata import category
 
 API_URL = "http://localhost:4040"
 

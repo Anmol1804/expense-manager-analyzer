@@ -143,3 +143,33 @@
 2025-02-28 20:13:30,693 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-24
 2025-02-28 20:13:32,784 - db_helper - INFO - fetch_expense called with start_date : 2024-08-01 and end_date with 2024-08-08
 2025-02-28 20:15:58,554 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-24
+2025-03-01 09:41:09,260 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-02-01
+2025-03-01 09:53:47,927 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-02-01
+2025-03-01 09:53:54,929 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-01
+2025-03-01 09:54:41,319 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-01
+2025-03-01 09:55:29,160 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-01
+2025-03-01 19:10:50,543 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-01
+2025-03-01 19:10:55,575 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:11:00,407 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:11:02,456 - db_helper - INFO - fetch_expense called with start_date : 2024-08-01 and end_date with 2024-08-05
+2025-03-01 19:12:02,289 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:15:09,099 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:15:50,079 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:16:16,187 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:16:40,848 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:16:56,862 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:26:46,370 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:28:42,073 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:29:00,968 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:29:11,997 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:34:20,914 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:34:37,526 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:35:01,828 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:35:50,656 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:36:13,790 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:43:06,747 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:43:34,589 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:46:27,750 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:47:29,890 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:47:53,437 - db_helper - INFO - fetch_expenses_for_date called with date : 2024-08-15
+2025-03-01 19:47:55,522 - db_helper - INFO - fetch_expense called with start_date : 2024-08-01 and end_date with 2024-08-05
